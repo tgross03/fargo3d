@@ -16,4 +16,5 @@ std/.lastflags.old
 *.swp
 *.bak
 *tests.log
+*.temp
 mp.pro

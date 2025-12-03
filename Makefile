@@ -26,6 +26,8 @@ clean:
 	@-${PYTHON} ${SCRIPTSDIR}/make.py clean
 	@-rm -f src/rescale.c
 	@-rm -fr arch/
+clear_hltau:
+	@ rm -rf outputs/hl_tau
 mrproper:
 	@-${PYTHON} ${SCRIPTSDIR}/make.py clean
 	@-rm -f std/.lastflags*

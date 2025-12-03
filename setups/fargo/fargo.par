@@ -29,8 +29,8 @@ IndirectTerm		Yes
 
 ### Mesh parameters
 
-Nx			384		Azimuthal number of zones
-Ny               	128		Radial number of zones
+Nx			700		Azimuthal number of zones
+Ny               	200		Radial number of zones
 Xmin			-3.14159265358979323844	
 Xmax			3.14159265358979323844
 Ymin			0.4		Inner boundary radius
@@ -40,8 +40,9 @@ Frame			G		Method for moving the frame of reference
 
 ### Output control parameters
 
+### DT			0.314159265359	Physical time between fine-grain outputs
 DT			0.314159265359	Physical time between fine-grain outputs
-Ninterm	 		20		Number of DTs between scalar fields outputs
+Ninterm	 		1		Number of DTs between scalar fields outputs
 Ntot			1000		Total number of DTs
 
 OutputDir		@outputs/fargo
